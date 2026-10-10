@@ -1,0 +1,86 @@
+﻿============================================================
+  RELATORIO DE TESTES - DIO Explorer Slash Commands
+  Data/Hora  : 10/10/2026 17:49:01
+  Aluno      : Regiane
+  Trilha     : Fullstack Java + Angular do Zero ao Deploy
+============================================================
+
+RESUMO GERAL
+------------------------------------------------------------
+  Total de Testes : 29
+  Aprovados       : 29
+  Reprovados      : 0
+  Cobertura       : 100%
+  Meta (70%)      : ATINGIDA [OK]
+
+============================================================
+DETALHE POR SUITE
+============================================================
+
+[ /trilha ]  11/11 aprovados
+------------------------------------------------------------
+  [PASS]  JSON carregado como array com 30+ trilhas
+  [PASS]  Busca por Java retorna resultados
+  [PASS]  Busca inclui trilha Fullstack Java + Angular
+  [PASS]  Busca inclui trilha Microsservicos Spring Cloud
+  [PASS]  Busca case-insensitive (java = JAVA)
+  [PASS]  Tecnologia inexistente retorna zero resultados
+  [PASS]  Cada trilha Java tem campos obrigatorios
+  [PASS]  XP total da trilha Fullstack Java e 18500
+  [PASS]  Trilha Fullstack Java tem promocao 30% ativa
+  [PASS]  Trilha Fullstack Java tem lives semanais
+  [PASS]  Trilha Microsservicos tem nivel Avancado
+
+[ /desafio ]  8/8 aprovados
+------------------------------------------------------------
+  [PASS]  Nivel padrao null => Intermediario
+  [PASS]  Nivel padrao string vazia => Intermediario
+  [PASS]  Nivel Iniciante e aceito
+  [PASS]  Nivel Avancado e aceito
+  [PASS]  Nivel invalido => Intermediario
+  [PASS]  Java existe no JSON
+  [PASS]  Trilhas Avancadas Java tem XP > 20000
+  [PASS]  Trilhas Intermediarias Java tem 8 a 15 modulos
+
+[ /certificado ]  10/10 aprovados
+------------------------------------------------------------
+  [PASS]  Trilha do aluno existe no JSON
+  [PASS]  Carga horaria = modulos x 8
+  [PASS]  Carga horaria Fullstack Java e 96h (12 x 8)
+  [PASS]  ID comeca com DIO-
+  [PASS]  ID tem 10 caracteres
+  [PASS]  10 IDs consecutivos sao distintos
+  [PASS]  Nome formatado em maiusculas
+  [PASS]  XP total e positivo
+  [PASS]  Array de tecnologias nao vazio
+  [PASS]  Acesso vitalicio e true
+
+============================================================
+SIMULACAO DO FLUXO COMPLETO
+============================================================
+
+[1] /trilha Java
+    Trilhas encontradas:
+      - Fullstack Java + Angular do Zero ao Deploy (Intermediário | 18500 XP)
+      - Desenvolvedor React Native Mobile (Intermediário | 15000 XP)
+      - Desenvolvedor Frontend com HTML, CSS e JavaScript (Iniciante | 10000 XP)
+      - Arquitetura de Microsserviços com Spring Cloud (Avançado | 25000 XP)
+      - React.js — Criando Interfaces Modernas com Hooks (Intermediário | 16800 XP)
+
+[2] /desafio Java Intermediario
+    Tecnologia : Java
+    Nivel      : Intermediario
+    XP previsto: ate 3.500 XP
+
+[3] /certificado Regiane "Fullstack Java + Angular do Zero ao Deploy"
+    Aluno          : REGIANE
+    Trilha         : Fullstack Java + Angular do Zero ao Deploy
+    Carga Horaria  : 96h
+    XP Conquistado : 18500 XP
+    ID Certificado : DIO-GD1D2B
+    Tecnologias    : Java, Spring Boot, Angular, PostgreSQL
+    Nivel          : Intermediário
+
+============================================================
+Arquivo gerado automaticamente - DIO Explorer Tests
+============================================================

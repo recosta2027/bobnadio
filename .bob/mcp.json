@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "dio-explorer": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "${workspaceFolder}\\Projeto Final Dio Explorer\\MCP\\build\\index.js"
+      ],
+      "disabled": false,
+      "alwaysAllow": []
+    }
+  }
+}

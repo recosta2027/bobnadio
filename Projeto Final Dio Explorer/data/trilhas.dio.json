@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "nome": "Fullstack Java + Angular do Zero ao Deploy",
+    "tecnologia": ["Java", "Spring Boot", "Angular", "PostgreSQL"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 12,
+    "xp_total": 18500,
+    "beds_disponiveis": 150,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 30,
+      "validade": "2025-08-31"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-15T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Python para Data Science e Machine Learning",
+    "tecnologia": ["Python", "Pandas", "Scikit-learn", "Jupyter"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 15,
+    "xp_total": 24000,
+    "beds_disponiveis": 80,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-20T18:00:00-03:00"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Desenvolvedor React Native Mobile",
+    "tecnologia": ["React Native", "JavaScript", "Expo", "Firebase"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 10,
+    "xp_total": 15000,
+    "beds_disponiveis": 200,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 20,
+      "validade": "2025-07-30"
+    },
+    "vitalicio": false,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-10T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Cloud AWS — Arquitetura e Serviços Essenciais",
+    "tecnologia": ["AWS", "EC2", "S3", "Lambda", "RDS"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 14,
+    "xp_total": 22000,
+    "beds_disponiveis": 60,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 15,
+      "validade": "2025-08-15"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Mensal",
+      "proxima_live": "2025-07-25T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Introdução à Programação com Lógica e Algoritmos",
+    "tecnologia": ["Pseudocódigo", "Portugol", "Python"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 6,
+    "xp_total": 8000,
+    "beds_disponiveis": 500,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": false,
+      "frequencia": null,
+      "proxima_live": null
+    }
+  },
+  {
+    "id": 6,
+    "nome": "DevOps com Docker, Kubernetes e CI/CD",
+    "tecnologia": ["Docker", "Kubernetes", "GitHub Actions", "Jenkins"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 13,
+    "xp_total": 21000,
+    "beds_disponiveis": 75,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 25,
+      "validade": "2025-09-01"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-12T18:30:00-03:00"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Desenvolvedor Frontend com HTML, CSS e JavaScript",
+    "tecnologia": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 8,
+    "xp_total": 10000,
+    "beds_disponiveis": 400,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-18T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Engenharia de Dados com Apache Spark e Databricks",
+    "tecnologia": ["Apache Spark", "Databricks", "Python", "Delta Lake"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 16,
+    "xp_total": 26000,
+    "beds_disponiveis": 40,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Mensal",
+      "proxima_live": "2025-08-05T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Microsoft Azure Fundamentals AZ-900",
+    "tecnologia": ["Azure", "Cloud Computing", "ARM Templates"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 7,
+    "xp_total": 9500,
+    "beds_disponiveis": 300,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 10,
+      "validade": "2025-07-31"
+    },
+    "vitalicio": false,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-22T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 10,
+    "nome": "Desenvolvimento de APIs REST com Node.js e Express",
+    "tecnologia": ["Node.js", "Express", "MongoDB", "JWT"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 9,
+    "xp_total": 13500,
+    "beds_disponiveis": 180,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 20,
+      "validade": "2025-08-10"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-11T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 11,
+    "nome": "Inteligência Artificial com Python e TensorFlow",
+    "tecnologia": ["Python", "TensorFlow", "Keras", "OpenCV"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 18,
+    "xp_total": 30000,
+    "beds_disponiveis": 50,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-14T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 12,
+    "nome": "Banco de Dados SQL e NoSQL na Prática",
+    "tecnologia": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 10,
+    "xp_total": 14000,
+    "beds_disponiveis": 220,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 15,
+      "validade": "2025-08-20"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": false,
+      "frequencia": null,
+      "proxima_live": null
+    }
+  },
+  {
+    "id": 13,
+    "nome": "Cibersegurança — Fundamentos e Ethical Hacking",
+    "tecnologia": ["Kali Linux", "Metasploit", "Wireshark", "OWASP"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 14,
+    "xp_total": 23000,
+    "beds_disponiveis": 70,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 35,
+      "validade": "2025-07-25"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-16T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 14,
+    "nome": "Flutter — Desenvolvimento Multiplataforma",
+    "tecnologia": ["Flutter", "Dart", "Firebase", "REST API"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 11,
+    "xp_total": 16500,
+    "beds_disponiveis": 130,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-13T18:00:00-03:00"
+    }
+  },
+  {
+    "id": 15,
+    "nome": "Arquitetura de Microsserviços com Spring Cloud",
+    "tecnologia": ["Java", "Spring Cloud", "Kafka", "Docker"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 15,
+    "xp_total": 25000,
+    "beds_disponiveis": 55,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 20,
+      "validade": "2025-09-15"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Mensal",
+      "proxima_live": "2025-08-01T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 16,
+    "nome": "TypeScript Avançado com Design Patterns",
+    "tecnologia": ["TypeScript", "Node.js", "Design Patterns", "Jest"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 11,
+    "xp_total": 17000,
+    "beds_disponiveis": 95,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-24T19:30:00-03:00"
+    }
+  },
+  {
+    "id": 17,
+    "nome": "Google Cloud Platform — Associate Cloud Engineer",
+    "tecnologia": ["GCP", "BigQuery", "Cloud Run", "GKE"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 12,
+    "xp_total": 19000,
+    "beds_disponiveis": 85,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 25,
+      "validade": "2025-08-05"
+    },
+    "vitalicio": false,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Mensal",
+      "proxima_live": "2025-07-28T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 18,
+    "nome": "Desenvolvimento de Games com Unity e C#",
+    "tecnologia": ["Unity", "C#", "Blender", "Shader Graph"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 13,
+    "xp_total": 20000,
+    "beds_disponiveis": 110,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-17T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 19,
+    "nome": "Blockchain e Web3 com Solidity",
+    "tecnologia": ["Solidity", "Ethereum", "Hardhat", "MetaMask"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 12,
+    "xp_total": 20500,
+    "beds_disponiveis": 45,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 40,
+      "validade": "2025-07-20"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-19T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 20,
+    "nome": "UX/UI Design com Figma do Básico ao Avançado",
+    "tecnologia": ["Figma", "Adobe XD", "Prototipação", "Design System"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 9,
+    "xp_total": 11000,
+    "beds_disponiveis": 280,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-23T18:30:00-03:00"
+    }
+  },
+  {
+    "id": 21,
+    "nome": "Kotlin para Android — Do Básico ao Profissional",
+    "tecnologia": ["Kotlin", "Android SDK", "Jetpack Compose", "Room"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 11,
+    "xp_total": 16000,
+    "beds_disponiveis": 140,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 15,
+      "validade": "2025-08-25"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": false,
+      "frequencia": null,
+      "proxima_live": null
+    }
+  },
+  {
+    "id": 22,
+    "nome": "Power BI e Análise de Dados para Negócios",
+    "tecnologia": ["Power BI", "DAX", "Excel", "SQL"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 8,
+    "xp_total": 10500,
+    "beds_disponiveis": 350,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 20,
+      "validade": "2025-07-28"
+    },
+    "vitalicio": false,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-09T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 23,
+    "nome": "C# .NET — Desenvolvimento Web com ASP.NET Core",
+    "tecnologia": ["C#", "ASP.NET Core", "Entity Framework", "SQL Server"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 12,
+    "xp_total": 18000,
+    "beds_disponiveis": 160,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-21T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 24,
+    "nome": "Infraestrutura como Código com Terraform e Ansible",
+    "tecnologia": ["Terraform", "Ansible", "AWS", "Linux"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 13,
+    "xp_total": 21500,
+    "beds_disponiveis": 65,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 30,
+      "validade": "2025-08-30"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Mensal",
+      "proxima_live": "2025-08-10T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 25,
+    "nome": "Vue.js 3 — Criando SPAs Modernas",
+    "tecnologia": ["Vue.js", "Vite", "Pinia", "TypeScript"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 10,
+    "xp_total": 14500,
+    "beds_disponiveis": 175,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-08T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 26,
+    "nome": "LLMs e IA Generativa com LangChain e OpenAI",
+    "tecnologia": ["Python", "LangChain", "OpenAI API", "Pinecone"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 14,
+    "xp_total": 27000,
+    "beds_disponiveis": 35,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 10,
+      "validade": "2025-09-30"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-10T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 27,
+    "nome": "Linux Essentials — Administração de Sistemas",
+    "tecnologia": ["Linux", "Bash", "Shell Script", "systemd"],
+    "nivel": "Iniciante",
+    "numero_de_modulos": 7,
+    "xp_total": 9000,
+    "beds_disponiveis": 320,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": false,
+      "frequencia": null,
+      "proxima_live": null
+    }
+  },
+  {
+    "id": 28,
+    "nome": "React.js — Criando Interfaces Modernas com Hooks",
+    "tecnologia": ["React", "JavaScript", "Redux", "Tailwind CSS"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 11,
+    "xp_total": 16800,
+    "beds_disponiveis": 190,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 20,
+      "validade": "2025-08-01"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Semanal",
+      "proxima_live": "2025-07-07T20:00:00-03:00"
+    }
+  },
+  {
+    "id": 29,
+    "nome": "PHP Moderno com Laravel e Vue.js",
+    "tecnologia": ["PHP", "Laravel", "Vue.js", "MySQL"],
+    "nivel": "Intermediário",
+    "numero_de_modulos": 10,
+    "xp_total": 14000,
+    "beds_disponiveis": 155,
+    "promocao": {
+      "ativa": false,
+      "desconto_percentual": 0,
+      "validade": null
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-26T19:00:00-03:00"
+    }
+  },
+  {
+    "id": 30,
+    "nome": "MLOps — Deploy de Modelos de Machine Learning em Produção",
+    "tecnologia": ["Python", "MLflow", "Docker", "FastAPI", "AWS SageMaker"],
+    "nivel": "Avançado",
+    "numero_de_modulos": 16,
+    "xp_total": 28000,
+    "beds_disponiveis": 30,
+    "promocao": {
+      "ativa": true,
+      "desconto_percentual": 15,
+      "validade": "2025-09-20"
+    },
+    "vitalicio": true,
+    "lives_ao_vivo": {
+      "disponiveis": true,
+      "frequencia": "Quinzenal",
+      "proxima_live": "2025-07-29T19:00:00-03:00"
+    }
+  }
+]

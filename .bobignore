@@ -1,0 +1,48 @@
+﻿# ============================================
+# .bobignore — Arquivo de exclusão do projeto
+# ============================================
+
+# Módulos (dependências instaladas)
+node_modules/
+modules/
+vendor/
+
+# Pasta de dados gerados
+data/
+
+# Cache
+cache/
+.cache/
+**/.cache/
+
+# Progressos do usuário
+progressos/
+progress/
+
+# Certificados gerados e emitidos
+certificados/
+certificates/
+**/*.cert
+**/*.crt
+**/*.pem
+
+# Arquivos temporários
+**/*.tmp
+**/*.temp
+*.tmp
+*.temp
+
+# Arquivos de build e saída
+dist/
+build/
+out/
+output/
+
+# Logs
+**/*.log
+logs/
+
+# Variáveis de ambiente sensíveis
+.env
+.env.*
+!.env.example

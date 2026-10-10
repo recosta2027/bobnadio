@@ -1,0 +1,39 @@
+{
+  "name": "dio-explorer-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server para o Projeto Final Dio Explorer — expõe trilhas, desafios e certificados via protocolo MCP",
+  "type": "module",
+  "bin": {
+    "dio-explorer-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "clean": "rimraf build"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "rimraf": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "dio",
+    "education",
+    "trilhas",
+    "certificado"
+  ],
+  "author": "Regiane",
+  "license": "MIT"
+}
